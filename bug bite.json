@@ -679,17 +679,40 @@
         "name": "stab.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "NewFile.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "NewFile.json",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "textspeed",
+      "type": "string",
+      "value": "0.5"
+    },
+    {
+      "name": "Variable",
+      "type": "string",
+      "value": ""
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/new-scene"
+      "referenceTo": "/layouts/new-scene3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/original-beta"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
